@@ -661,11 +661,11 @@
   color: #131318;
 }
 
-.footer-copyrught {
+.footer {
   padding-top: 100px;
 }
 
-.copypaste {
+.paste {
   display: flex;
   align-items: center;
   justify-content: center;
