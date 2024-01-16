@@ -111,5 +111,73 @@ main {
     cursor: pointer;
     border: 0;
     text-align: center;
+    padding: 16px; 
+}
+/* mount section */
+section {
+    display: flex;
+    align-items: center;
+}
+
+.mount-container {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+}
+
+.mount-container h1 {
+    font-size: 2.5rem;
+    color: #131313;
+    margin-bottom: 20px; /* Add margin to separate h1 from the following content */
+    text-align: left; /* Align text to the left */
+}
+
+.mount-container p {
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.mount-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.mount-container li {
+    margin-bottom: 10px;
+    text-align: left; /* Align text to the left */
+    position: relative;
+}
+
+.mount-container li::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    color: #FF5400; /* Bullet color */
+    font-size: 1.5em;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.btn-primary.color {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    width: 174px;
+    height: 52px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    text-align: center;
     padding: 16px; /* Adjust padding as needed */
+    position: absolute; /* Add position: absolute */
+    bottom: 20px; /* Adjust bottom distance */
+    left: 20px; /* Adjust left distance */
+}
+
+/* Image style */
+section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-left: 20px; /* Add margin between text and image */
 }
